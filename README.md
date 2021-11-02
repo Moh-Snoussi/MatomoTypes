@@ -1,5 +1,4 @@
-# Project Title
-MatomoType
+# MatomoType
 
 ## Description
 
@@ -8,7 +7,7 @@ A npm package that contains the types of Matomo (or piwik) tracking library.
 ## Getting Started
 ### Installing
 ```shell
-npm install matomotypes
+npm install --save matomotypes
 ```
 
 ### Usage
