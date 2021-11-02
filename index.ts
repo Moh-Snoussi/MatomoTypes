@@ -1,4 +1,4 @@
-declare namespace Matomo {
+export declare namespace Matomo {
     export type Tracker = {
         addDownloadExtensions: Function,
         addEcommerceItem: Function,
@@ -121,7 +121,8 @@ declare namespace Matomo {
         trackVisibleContentImpressions: Function
     }
 
-    export type TrackerEntry = [keyof Tracker, ...Array<any>]
+    export type TrackerEntry = [keyof Tracker | ((this: Tracker) => void), ...Array<any>]
+
 
     export type TrackingCollector = Array<TrackerEntry>
 }
