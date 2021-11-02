@@ -1,0 +1,16 @@
+{
+  "name": "matomotypes",
+  "version": "1.0.0",
+  "description": "Contains the types of the piwik or Matomo tracking library",
+  "main": "src/.js",
+  "scripts": {
+    "build" : "tsc"
+  },
+  "keywords": [
+    "types",
+    "type",
+    "typescript"
+  ],
+  "author": "Mohamed Snoussi",
+  "license": "ISC"
+}
